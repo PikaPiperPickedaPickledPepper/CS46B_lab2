@@ -10,5 +10,10 @@ public class Vehicle {
 		System.out.println("Vehicle constructor");
 	}
 	
-	public static void main(String[] args) { Vehicle v = new Vehicle(4); }
+	public static void main(String[] args) { 
+		
+		Vehicle v = new Vehicle(4); 
+		
+		MarsRover m = new MarsRover();
+	}
 }
